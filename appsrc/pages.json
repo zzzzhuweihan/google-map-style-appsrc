@@ -1,0 +1,93 @@
+{
+	"pages": [{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path" : "pages/router_plan/router_plan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/setting/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/opensource/opensource",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/contact/contact",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/about/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/map/map",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+			"color": "#7A7E83",
+			"selectedColor": "#007AFF",
+			"borderStyle": "black",
+			"backgroundColor": "#FFFFFF",
+			"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar/list.png",
+				"selectedIconPath": "static/tabbar/list_active.png",
+				"text": "Home"
+			}, {
+				"pagePath": "pages/router_plan/router_plan",
+				"iconPath": "static/tabbar/grid.png",
+				"selectedIconPath": "static/tabbar/grid_active.png",
+				"text": "Route Planner"
+			}, {
+				"pagePath": "pages/setting/setting",
+				"iconPath": "static/tabbar/me.png",
+				"selectedIconPath": "static/tabbar/me_active.png",
+				"text": "Mine"
+			}]
+		}
+}

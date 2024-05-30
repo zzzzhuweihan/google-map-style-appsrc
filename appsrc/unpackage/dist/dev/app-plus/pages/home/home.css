@@ -1,0 +1,109 @@
+
+	/* styles.css */
+body {
+	    font-family: Arial, sans-serif;
+	    margin: 0;
+	    padding: 0;
+	    background-color: #f4f4f4;
+}
+.navbar {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    background-color: #4CAF50;
+	    padding: 10px 20px;
+	    color: white;
+		min-height: 140px;
+}
+.logo {
+	    font-size: 24px;
+	    font-weight: bold;
+}
+.nav-links {
+	    list-style: none;
+	    display: flex;
+	    gap: 15px;
+}
+.nav-links li {
+	    display: inline;
+}
+.nav-links a {
+	    color: white;
+	    text-decoration: none;
+}
+.auth-buttons uni-button {
+	    margin-left: 10px;
+	    padding: 5px 10px;
+	    background-color: white;
+	    color: #4CAF50;
+	    border: none;
+	    border-radius: 5px;
+	    cursor: pointer;
+}
+.auth-buttons uni-button:hover {
+	    background-color: #ddd;
+}
+.banner {
+	    background-image: url('banner.jpg'); /* Replace with your banner image */
+	    background-size: cover;
+	    background-position: center;
+	    text-align: center;
+	    padding: 100px 20px;
+	    color: #26772c;
+}
+.banner h1 {
+	    font-size: 48px;
+	    margin-bottom: 20px;
+}
+.banner p {
+	    font-size: 24px;
+	    margin-bottom: 20px;
+}
+.banner uni-button {
+	    padding: 10px 20px;
+	    background-color: #4CAF50;
+	    color: white;
+	    border: none;
+	    border-radius: 5px;
+	    cursor: pointer;
+	    font-size: 18px;
+}
+.banner uni-button:hover {
+	    background-color: #45a049;
+}
+.features {
+	    padding: 40px 20px;
+	    background-color: white;
+	    text-align: center;
+}
+.features h2 {
+	    color: #4CAF50;
+	    margin-bottom: 40px;
+}
+.feature {
+	    margin-bottom: 20px;
+}
+.feature h3 {
+	    color: #4CAF50;
+	    margin-bottom: 10px;
+}
+.feature p {
+	    font-size: 16px;
+	    color: #555;
+}
+footer {
+	    background-color: #4CAF50;
+	    color: white;
+	    text-align: center;
+	    padding: 10px 0;
+	    margin-top: 40px;
+}
+footer a {
+	    color: white;
+	    text-decoration: none;
+	    margin: 0 10px;
+}
+footer .social-media a {
+	    margin: 0 5px;
+}
+
